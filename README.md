@@ -4,6 +4,16 @@
 
 Built for the [SATNAV G4D-RR Hackathon](https://dorahacks.io/hackathon/satnav) — EU-funded GNSS for Disaster Risk Reduction & Early Warning Systems.
 
+<!-- product-screenshots:start -->
+## Product screenshots
+
+GNSS monitoring dashboard with station health, the geographic view, and an anomaly feed.
+
+![geopulse product interface](download/geopulse-dashboard.png)
+
+Existing UI capture stored in this repository; displayed values may be demo or sample data.
+<!-- product-screenshots:end -->
+
 ## Overview
 
 GeoPulse ingests continuous GNSS position streams from a network of 24 ground stations across Africa, stores time-series geospatial data in [ScyllaDB](https://www.scylladb.com/), and runs real-time anomaly detection to flag precursor signals for earthquakes, landslides, and volcanic activity.
